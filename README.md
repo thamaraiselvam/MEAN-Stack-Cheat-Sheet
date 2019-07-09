@@ -256,7 +256,9 @@ Since most modern kernels are multi-threaded, they can handle multiple operation
 Read following links to learn more about Event Loop
 
 [The Node.js Event Loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
-[What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
+[What the heck is the event loop anyway? by Philip Roberts - JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
 [Visualisation tool for event loop](http://latentflip.com/loupe/)
 
 #### JavaScript Engine vs JavaScript Runtime
