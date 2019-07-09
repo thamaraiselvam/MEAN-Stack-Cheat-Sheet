@@ -7,7 +7,7 @@ Those who want to become a *Full Stack Developer* their first choice is **MEAN S
 </p>
 
 >
-This list is meant to be both a quick guide and reference for further research into these topics. It's basically a summary of important topics, there's no way it can cover everything in depth.  It also will be available as a gist on Github for everyone to edit and add to.
+This list is meant to be both a quick guide and reference for further research into these topics. It's basically a summary of important topics, there's no way it can cover everything in depth.  It also will be available as on [Github](https://github.com/thamaraiselvam/MEAN-Stack-Cheat-Sheet) for everyone to edit and add to.
 
 ## What the heck is MEAN Stack
 
