@@ -2,7 +2,9 @@
 
 Those who want to become a *Full Stack Developer* their first choice is **MEAN Stack** because it has a lot of scopes and easy to learn as well but preparing is hard so Here's a Cheat Sheet - Inspired by [The Technical Interview Cheat Sheet.md](https://gist.github.com/TSiege/cbb0507082bb18ff7e4b)
 
-![Cheating](https://media.giphy.com/media/uGjzzKY4BhtKw/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/uGjzzKY4BhtKw/giphy.gif">
+</p>
 
 >
 This list is meant to be both a quick guide and reference for further research into these topics. It's basically a summary of important topics, there's no way it can cover everything in depth.  It also will be available as a gist on Github for everyone to edit and add to.
@@ -15,7 +17,9 @@ This list is meant to be both a quick guide and reference for further research i
 
 ## MongoDB
 
-![humongous](https://media.giphy.com/media/3otPoHMzdMgfZznjpe/giphy.gif)
+<p align="center">
+  <img height="245" width="350" src="https://media.giphy.com/media/3otPoHMzdMgfZznjpe/giphy.gif">
+</p>
 
 ### MongoDB Introduction
 
@@ -163,8 +167,9 @@ There are many more pipeline operators than dicussed above, which can be seen [h
 
 ## REST API
 
-![cat](https://media.giphy.com/media/M0HwKZz6zXfos/giphy-downsized.gif)
-
+<p align="center">
+  <img height="245" width="350" src="https://media.giphy.com/media/e3NinswgSNdRu/giphy.gif">
+</p>
 
 ### *What is REST API*
 
@@ -202,7 +207,10 @@ Read more [HTTP Methods](https://restfulapi.net/http-methods/)
 
 ## Express
 
-![faster](https://media.giphy.com/media/3oriNYQX2lC6dfW2Ji/giphy.gif)
+<p align="center">
+  <img height="245" width="350" src="https://media.giphy.com/media/3oriNYQX2lC6dfW2Ji/giphy.gif">
+</p>
+
 
 - ### *What is Express*
 
