@@ -168,7 +168,7 @@ There are many more pipeline operators than dicussed above, which can be seen [h
 ## Node.JS
 
 <p align="center">
-  <img height="245" width="350" src="https://media.giphy.com/media/fYTIzsb7wQq9G/giphy.gif">
+  <img height="245" width="350" src="https://user-images.githubusercontent.com/6559664/60865631-0c56c600-a244-11e9-972e-c367bcff55f6.gif">
 </p>
 
 ### What is Node.JS
