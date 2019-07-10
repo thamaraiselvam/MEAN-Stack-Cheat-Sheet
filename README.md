@@ -356,3 +356,181 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
 This app starts a server and listens on port 3000 for connections. The app responds with “Hello World!” for requests to the root URL (/) or route. Read [Express Guide](http://expressjs.com/en/guide/routing.html) to know more about Express Routing
+
+## Angular
+
+<p align="center">
+  <img height="245" width="350" src="https://media.giphy.com/media/r7Y17m4862kdW/giphy.gif">
+</p>
+
+Note: Always Refer [Angular Docs](https://angular.io/docs)  for detailed explanation
+
+### What is Angular
+
+Angular is a TypeScript-based open-source web application framework for building mobile and desktop web applications
+
+### Why Angular
+
+- Angular was written in TypeScript, a superset of JavaScript that implements many new ES2016+ features.
+- Awesome Command Line Interface (CLI)
+- Develop across all platforms
+- Speed, Performance and Scalability
+- Incredible tooling
+- Perfect for Single page Application
+
+### Setup Angular
+
+#### Step 1: Install Node.js
+
+Angular requires Node.js version 10.9.0 or later. To install node.js, go to [Install Node](#where-to-use-nodejs)
+
+#### Step 2: Install the Angular CLI
+
+```bash
+npm install -g @angular/cli
+```
+
+that's it you have installed Angular on your machine.
+
+### Angular CLI
+
+The Angular CLI is a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications. You can use the tool directly in a command shell.
+
+Enter the following to list commands or options for a given command (such as generate) with a short description
+
+```bash
+ng help
+ng generate --help
+```
+
+Know more about [Angular CLI](https://angular.io/cli)
+
+### Create and Run an application
+
+Now it is time create your first Angular application.
+
+#### Create New Angular Application
+
+Use `new` command to create a new application.
+
+```bash
+ng new my-first-project
+```
+
+and enter into created application `cd my-first-project`
+
+Use `serve` to run application.
+
+```bash
+ng serve
+```
+
+In your browser, open [http://localhost:4200/](http://localhost:4200/) to see the new app run. When you use the ng serve command to build an app and serve it locally, the server automatically rebuilds the app and reloads the page when you change any of the source files.
+
+### Fundamentals
+
+#### Architecture
+
+Angular is a platform and framework for building client applications in HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your apps.
+
+#### Module
+
+The basic building blocks of an Angular application are <strong>NgModules</strong>, which provide a compilation context for components. NgModules collect related code into functional sets; an Angular app is defined by a set of NgModules. An app always has at least a root module that enables bootstrapping, and typically has many more feature modules
+
+Learn more about [Angular Modules](https://angular.io/guide/architecture-modules)
+
+#### Component
+
+Components define views, which are sets of screen elements that Angular can choose among and modify according to your program logic and data. Every component consist of selector, template and style. Template and style can be inline or separate files.
+
+Learn more about [Angular components](https://angular.io/guide/architecture-components)
+
+#### Services and DI
+
+Components use services, which provide specific functionality not directly related to views. Service providers can be injected into components as dependencies, making your code modular, reusable, and efficient.
+
+You can have sharable methods and data into services.
+
+Learn more about [Angular Services](https://angular.io/guide/architecture-services)
+
+#### Routing
+
+Angular Routing helps to controll naviagation paths of application.
+which helps to retain application state as well.
+
+Learn more about [Angular Routings](https://angular.io/guide/router)
+
+#### Lifecycle Hooks
+
+- A component has a lifecycle managed by angular.
+
+- Angular creates it, renders it, creates and renders its children, checks it when its data-bound properties change, and destroys it before removing it from the DOM.
+
+- Angular offers lifecycle hooks that provide visibility into these key life moments and the ability to act when they occur.
+
+#### Lifecycle sequence
+
+After creating a component/directive by calling its constructor, Angular calls the lifecycle hook methods in the following sequence at specific moments:
+
+- ngOnChanges()
+- ngOnInit()
+- ngDoCheck()
+- ngAfterContentInit()
+- ngAfterContentChecked()
+- ngAfterViewInit()
+- ngAfterViewChecked()
+- ngOnDestroy()
+
+Learn More about [Angular Lifecycle](https://angular.io/guide/lifecycle-hooks)
+
+### File Structure
+
+You can see that your angular application has dozens of files and folders. lets see what is purpose of them.
+
+- e2e
+
+e2e folder has all unit test files and you should write unit testing inside this dir only.
+
+- src/app
+
+This folder contains all our applcation codes such as components, services and so on.
+
+- src/asset
+
+This folder is for asset files such as images, fonts.
+
+- src/environments
+
+This is for environment configurations such as Devopment mode, Production mode.
+
+- src/polyfills
+
+All browser compatibility stuffs lies here.
+
+- src/style.css
+
+This style file is common for entire angular application. if you want to define a style for whole app, you can do here, such as theming styles.
+
+- src/karma
+
+Unit testing configuration file
+
+- package.json
+
+Package.json contains all npm and script related stuffs
+
+- angular.json
+
+This file contains meta related to angular application
+
+- [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+
+Compiler Configuration for TypeScript
+
+- [tslint.json](https://www.npmjs.com/package/tslint)
+
+Linter Configurations
+
+- [editorconfig](https://editorconfig.org/)
+
+EditorConfig helps maintain consistent coding styles for multiple developers
