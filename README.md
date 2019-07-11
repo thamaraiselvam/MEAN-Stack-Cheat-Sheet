@@ -599,5 +599,5 @@ That's it. These are the most important topics of MEAN Stack, Please feel free t
 Now go and Practice.
 
 <p align="center">
-  <img height="400" width="400" src="https://media.giphy.com/media/YqyjyoDeLrCGA/giphy.gif">
+  <img height="400" width="400" src="https://user-images.githubusercontent.com/6559664/61043713-8f1e8300-a3f4-11e9-8650-3fbb51dbab47.gif">
 </p>
