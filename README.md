@@ -7,7 +7,7 @@ Those who want to become a *Full Stack Developer* their first choice is **MEAN S
 </p>
 
 >
-This list is meant to be both a quick guide and reference for further research into these topics. It's basically a summary of important topics, there's no way it can cover everything in depth.  It also will be available as on [Github](https://github.com/thamaraiselvam/MEAN-Stack-Cheat-Sheet) for everyone to edit and add to.
+This list is meant to be both a quick guide and reference for further research into these topics. It's basically a summary of important topics, there's no way it can cover everything in depth.  It also will be available as on [Github](https://github.com/thamaraiselvam/MEAN-Stack-Cheat-Sheet) for everyone. Please feel free to rise a [issue](https://github.com/thamaraiselvam/MEAN-Stack-Cheat-Sheet/issues) or [PR](https://github.com/thamaraiselvam/MEAN-Stack-Cheat-Sheet/pulls) if anything missing or any correction required.
 
 ## What the heck is MEAN Stack
 
@@ -460,6 +460,24 @@ which helps to retain application state as well.
 
 Learn more about [Angular Routings](https://angular.io/guide/router)
 
+#### Directive
+
+Angular templates are dynamic. When Angular renders them, it transforms the DOM according to the instructions given by directives. A directive is a class with a @Directive() decorator.
+
+A component is technically a directive. However, components are so distinctive and central to Angular applications that Angular defines the @Component() decorator, which extends the @Directive() decorator with template-oriented features
+
+- Structural directives
+
+Structural directives alter layout by adding, removing, and replacing elements in the DOM. For Example *ngFor, *ngIf, *ngSwitch and so on.
+
+[Angular structural directives](https://angular.io/guide/structural-directives)
+
+- Attribute directives
+
+Attribute directives alter the appearance or behavior of an existing element. In templates they look like regular HTML attributes, hence the name. For example **[style.color], [color], [(ngModel)] and so on**.
+
+[Angular Attribute directives](https://angular.io/guide/attribute-directives)
+
 #### Lifecycle Hooks
 
 - A component has a lifecycle managed by angular.
@@ -534,3 +552,52 @@ Linter Configurations
 - [editorconfig](https://editorconfig.org/)
 
 EditorConfig helps maintain consistent coding styles for multiple developers
+
+### Deep Diving
+
+#### Components Communication
+
+- Parent -> Child Via @Input
+- Child -> Parent Via @ViewChild
+- Child -> Parent Via @Output EventEmitters
+- Child <-> Parent Via with Service
+
+[Sharing Data Between Angular Components - Four Methods](https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/)
+
+#### Pipes
+
+Angular pipes let you declare display-value transformations in your template HTML. A class with the @Pipe decorator defines a function that transforms input values to output values for display in a view.
+
+```html
+<!-- Default format: output 'Jun 15, 2015'-->
+ <p>Today is {{today | date}}</p>
+
+<!-- fullDate format: output 'Monday, June 15, 2015'-->
+<p>The date is {{today | date:'fullDate'}}</p>
+
+ <!-- shortTime format: output '9:43 AM'-->
+ <p>The time is {{today | date:'shortTime'}}</p>
+ ```
+
+#### Data Binding
+
+One way data binding from Component to View
+
+- [Interpolation](https://angular.io/guide/displaying-data#interpolation) - {{}}
+- [Property Binding](https://angular.io/guide/template-syntax#property-binding) - []
+
+One way data binding from View to Component
+
+- [Event Binding](https://angular.io/guide/user-input#binding-to-user-input-events) - ()
+
+Two way data binding between Component to View
+
+- [ngModel Directive](https://angular.io/api/forms/NgModel) [()]
+
+That's it. These are the most important topics of MEAN Stack, Please feel free to rise a [issue](https://github.com/thamaraiselvam/MEAN-Stack-Cheat-Sheet/issues) or [PR](https://github.com/thamaraiselvam/MEAN-Stack-Cheat-Sheet/pulls) if anything is missing or any correction required.
+
+Now go and Practice.
+
+<p align="center">
+  <img height="400" width="400" src="https://media.giphy.com/media/YqyjyoDeLrCGA/giphy.gif">
+</p>
