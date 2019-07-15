@@ -11,9 +11,8 @@ This list is meant to be both a quick guide and reference for further research i
 
 ## What the heck is MEAN Stack
 
-- MEAN is a user-friendly full-stack JavaScript framework ideal for building dynamic websites and applications.
-- One of the main benefits of the MEAN stack is that a single language, JavaScript, runs on every level of the application, making it an efficient and modern approach to web development.
 - MEAN is an acronym for **MongoDB**, **ExpressJS**, **AngularJS** and **Node.js**
+- One of the main benefits of the MEAN stack is that a single language, JavaScript, runs on every level of the application, making it an efficient and modern approach to web development.
 
 ## MongoDB
 
